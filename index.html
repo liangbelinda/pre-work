@@ -2,11 +2,72 @@
 <html>
 <head>
 <title>Belinda Liang Introduction</title>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<style>
+	body, html{
+		font-family: 'Montserrat';
+		height: 100%;
+		margin: 0;
+	}
+
+	h1, p{
+		margin: 0;
+		text-align: center;
+	}
+
+	.bg {
+		background-image: url("background1.jpg");
+		background-color: rgba(255,255,255,0.35);
+		background-blend-mode: lighten;
+		height: 200px; 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.button{
+		background-color: #000000;
+		border: none;
+		color: white;
+		padding: 15px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 12px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		transition-duration: 0.5s;
+	}
+
+	.button:hover{
+		background-color: white;
+		color: black;
+	}
+
+	.container{
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+</style>
 </head>
-<body style="background-color:#FFDA67">
+<body>
+
+<div class="bg">
+	<h1 style="font-size:60px">Belinda Liang</h1>
+	<i><p style="margin-top:5px; font-size:20px">Connect with me!</p></i>
+	<div class="container">
+		<div style="margin-left: 400px"><a href="https://www.linkedin.com/in/belinda-liang/"><button class="button">LinkedIn</button></a></div>
+		<div><a href="https://drive.google.com/file/d/1ULn7Xz6N2jsuoZXhPjM6PNlZbKJ0KwF1/view?usp=sharing"><button class="button">Resume</button></a></div>
+		<div style="margin-right: 400px"><a href="https://belindaliang.wixsite.com/portfolio"><button class="button">Portfolio</button></a></div>
+	</div>
+
+</div>
 
 <h1>Who is Belinda Liang?</h1>
-<p>This is a paragraph.</p>
+<p>Hello, my name is Belinda. I graudated from Hunter College with a B.A. in Media Studies and a minor in Computer Science. I </p>
 
 </body>
 </html>
